@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pasty world</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img src="assets/logo.png" alt="логотип" />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-3-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Главная</a></li>
+          <li><a href="#menu">Меню</a></li>
+          <li><a href="#about">О нас</a></li>
+        </ul>
+      </nav>
+
+      <div class="section__container header__container" id="home">
+        <h1>Хорошая выпечка и кофе для хорошего дня</h1>
+        <p>
+          Начни свой день с наших свежевыпеченных изделий и премиального кофе.
+          В PastryWorld мы верим, что каждое мгновение должно приносить радость.
+        </p>
+        <div class="header__btns">
+          <button class="btn">Попробовать</button>
+          <button class="btn">Забронировать столик</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="menu" id="menu">
+      <div class="section__container menu__container">
+        <h2 class="section__header">Популярное Меню</h2>
+        <a href="#">
+          Смотреть всё
+          <i class="ri-arrow-right-long-line"></i>
+        </a>
+        <div class="menu__grid">
+          <div class="menu__card">
+            <img src="assets/menu-1.jpg" alt="меню" />
+            <div class="menu__card__content">
+              <h4>Булочка с карамелью и пеканом</h4>
+              <h3>$14.00</h3>
+            </div>
+          </div>
+          <div class="menu__card">
+            <img src="assets/menu-2.jpg" alt="меню" />
+            <div class="menu__card__content">
+              <h4>Шоколадный круассан (Pain au Chocolat)</h4>
+              <h3>$24.00</h3>
+            </div>
+          </div>
+          <div class="menu__card">
+            <img src="assets/menu-3.jpg" alt="меню" />
+            <div class="menu__card__content">
+              <h4>Шоколадный фадж десерт</h4>
+              <h3>$20.00</h3>
+            </div>
+          </div>
+          <div class="menu__card">
+            <img src="assets/menu-4.jpg" alt="меню" />
+            <div class="menu__card__content">
+              <h4>Трёхслойный шоколадный мусс</h4>
+              <h3>$29.00</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="book">
+      <div class="section__container book__container">
+        <form action="/">
+          <h4>Забронировать столик</h4>
+          <div class="input__row">
+            <div class="input__group">
+              <label for="firstName">ИМЯ</label>
+              <input type="text" />
+            </div>
+            <div class="input__group">
+              <label for="lastName">ФАМИЛИЯ</label>
+              <input type="text" />
+            </div>
+          </div>
+          <div class="input__row">
+            <div class="input__group">
+              <label for="date">ДАТА</label>
+              <input type="date" />
+            </div>
+            <div class="input__group">
+              <label for="person">КОЛИЧЕСТВО</label>
+              <input type="text" />
+            </div>
+          </div>
+          <div class="input__row">
+            <button class="btn" type="submit">ЗАБРОНИРОВАТЬ</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/about.png" alt="о нас" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">О нашем Мире Выпечки</h2>
+        <div>
+          <p>
+            Добро пожаловать в PastryWorld — место, где каждая выпечка рассказывает
+            историю страсти, вкуса и качества. Всё началось с простой цели —
+            создать уют для любителей выпечки и кофе.
+          </p>
+          <p>
+            Мы используем только лучшие ингредиенты, а наши мастера-пекари создают
+            изысканные изделия, приносящие радость каждому.
+          </p>
+          <div class="about__btn">
+            <button class="btn">ЧИТАТЬ ДАЛЕЕ</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <a href="#" class="footer__logo">
+            <img src="assets/logo.png" alt="логотип" />
+          </a>
+        </div>
+        <div class="footer__col">
+          <h4>Блоги</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                Искусство идеальной выпечки: секреты наших творений
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                5 сочетаний кофе и выпечки, чтобы поднять настроение
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Закулисье: Один день из жизни наших кондитеров
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Новинки</h4>
+          <ul class="footer__links">
+            <li><a href="#">Популярные позиции</a></li>
+            <li><a href="#">Ежедневные предложения</a></li>
+            <li><a href="#">Отзывы клиентов</a></li>
+            <li><a href="#">Мастер-классы</a></li>
+            <li><a href="#">Блог и рецепты</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Социальные сети</h4>
+          <ul class="footer__links">
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Youtube</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        © 2025 
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
